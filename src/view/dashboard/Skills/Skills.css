@@ -1,0 +1,20 @@
+.progress {
+  height: 20px;
+
+  padding: 2px 2px;
+}
+.inprogress {
+  animation: load 5s normal forwards;
+  box-shadow: 0 10px 40px -10px #fff;
+}
+/* .img-div {
+  width: %;
+} */
+@keyframes load {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 75%;
+  }
+}

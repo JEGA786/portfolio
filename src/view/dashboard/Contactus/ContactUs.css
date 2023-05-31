@@ -1,0 +1,9 @@
+.out-line > input {
+  border: none;
+  height: 50px;
+  border-radius: 5px;
+}
+.out-line > textarea {
+  border: none;
+  border-radius: 5px;
+}

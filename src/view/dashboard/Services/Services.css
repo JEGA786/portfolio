@@ -1,0 +1,19 @@
+.sixboxs > div > div {
+  height: 200px;
+  border-radius: 10px;
+}
+.twoboxs > div > div {
+  height: 200px;
+  border-radius: 10px;
+}
+.sixboxs > div > div {
+  background-image: url("../../../asset/service.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media only screen and (max-width: 500px) {
+  .sixboxs > div > div {
+    height: 140px;
+    border-radius: 10px;
+  }
+}

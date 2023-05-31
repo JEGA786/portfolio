@@ -1,0 +1,68 @@
+/* h5 {
+  color: aqua;
+  font-family: Hack, sans-serif;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  background: linear-gradient(90deg, #000, #fff, #000);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 80%;
+  
+  background-repeat: no-repeat;
+  animation: text 5s linear infinite;
+  position: relative;
+}
+@keyframes text {
+  0% {
+    background-position-x: -500%;
+  }
+  100% {
+    background-position-x: -500%;
+  }
+} */
+.roal {
+  font-weight: 700;
+  font-family: Hack, sans-serif;
+  text-transform: uppercase;
+  background: linear-gradient(90deg, #000, #fff, #000);
+  letter-spacing: 3px;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: shine 6s linear infinite;
+  position: relative;
+}
+
+@keyframes shine {
+  0% {
+    background-position-x: -500%;
+  }
+  100% {
+    background-position-x: 500%;
+  }
+}
+img {
+  height: 100%;
+  width: 100%;
+}
+.homealltext > .btn {
+  width: 7rem;
+}
+.homealltext > .btnone:hover {
+  background: transparent;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  border: none;
+}
+.homealltext > .btntwo:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+/* ---------------------box css----------------------- */
